@@ -71,8 +71,8 @@ func main() {
 	procarch := arch.Validate(env.arch)
 
 	if !isTerminal() {
-		alert("NVM for Windows should be run from a terminal such as CMD or PowerShell.", "Terminal Only")
-		os.Exit(0)
+		// alert("NVM for Windows should be run from a terminal such as CMD or PowerShell.", "Terminal Only")
+		// os.Exit(0)
 	}
 
 	// Capture any additional arguments
